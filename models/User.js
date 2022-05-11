@@ -48,7 +48,7 @@ User.init(
                 // this means the password myst be at least four characters long
                 len: [4]
             }
-        }
+        },
     },
     {
         hooks: {
