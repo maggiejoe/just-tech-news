@@ -16,3 +16,22 @@ app.use(routes);
 sequelize.sync({ force: false }).then(() => {
     app.listen(PORT, () => console.log('Now listening'));
 });
+
+
+// {
+// 	"username": "linda",
+// 	"email": "linda@school.ca",
+// 	"password": "password1233454"
+// }
+
+// {
+// 	"id": 1,
+// 	"title": "title",
+// 	"post_url": "https://github.com/maggiejoe/just-tech-news",
+// 	"user_id": 1
+// }
+
+// {
+// 	"user_id": 1,
+// 	"post_id": 1
+// }
